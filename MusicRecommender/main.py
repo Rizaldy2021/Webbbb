@@ -62,8 +62,8 @@ tab1, tab2, tab3 = st.tabs(['Recommender', 'Data', 'About'])
 with tab1:
     st.header('Music Recommender System')
     
-    music = pickle.load(open('df.pkl', 'rb'))
-    similarity = pickle.load(open('similarity.pkl', 'rb'))
+    music = pickle.load(open('MusicRecommender/df.pkl', 'rb'))
+    similarity = pickle.load(open('MusicRecommender/similarity.pkl', 'rb'))
 
     music_list = [f"{song} - {artist}" for song, artist in zip(music['song'], music['artist'])]
     selected_song = st.selectbox(
