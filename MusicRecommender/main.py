@@ -110,7 +110,7 @@ with tab2:
     
 with tab3:
     st.header('About')
-    st.image('images1.png', use_column_width='always')
+    st.image('MusicRecommender/images1.png', use_column_width='always')
     st.write('Spotify adalah layanan streaming musik digital yang memungkinkan penggunanya mendengarkan jutaan lagu, podcast, dan materi audio lainnya secara online. Dengan model bisnis berlangganan, pengguna dapat membayar biaya bulanan untuk mengakses seluruh katalog musik tanpa iklan, sementara opsi penggunaan gratis menawarkan akses terbatas dengan iklan. Spotify menonjol dengan katalog musiknya yang luas, mencakup berbagai genre dari seluruh dunia. Algoritma personalisasinya menganalisis preferensi mendengar pengguna untuk memberikan rekomendasi yang dipersonalisasi, seperti playlist Discover Weekly. Selain musik, Spotify menawarkan berbagai podcast, mulai dari berita hingga hiburan. Fitur sosial memungkinkan pengguna berbagi lagu dan playlist dengan teman-teman mereka, serta mengikuti aktivitas musik teman. Versi premium menyediakan keuntungan tambahan, termasuk mendengarkan musik tanpa iklan dan kemampuan mengunduh untuk mendengarkan secara offline. Dengan akses lintas platform, pengguna dapat menikmati Spotify di berbagai perangkat, menjadikannya salah satu platform streaming musik paling populer di dunia.')
     st.write('')
     st.write('Music recommender dengan menggunakan cosine similarity adalah sistem yang menggunakan metode perhitungan cosine similarity untuk memberikan rekomendasi musik kepada pengguna berdasarkan kesamaan preferensi mereka. Konsepnya didasarkan pada pengukuran sudut kosinus antara vektor representasi musik yang dibuat berdasarkan preferensi pengguna. Semakin kecil sudut antara vektor, semakin mirip dua set musik tersebut.')
