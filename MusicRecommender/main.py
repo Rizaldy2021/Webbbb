@@ -12,7 +12,7 @@ CLIENT_SECRET = 'd4634d69538e4152ab93195180ccb50e'
 client_credentials_manager = SpotifyClientCredentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
-data = pd.read_csv('visual.csv')
+data = pd.read_csv('MusicRecommender/visual.csv')
 
 def get_song_album_cover_url(song_name, artist_name):
     search_query = f"track:{song_name} artist:{artist_name}"
