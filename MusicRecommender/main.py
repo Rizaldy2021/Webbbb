@@ -52,7 +52,7 @@ def recommend(song):
     return recommended_music_names, recommended_music_posters, recommended_music_url
 
 def generate_wordcloud(text_data):
-    wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text_data)
+    wordcloud = WordCloud(width=800, height=400).generate(text_data)
     fig, ax = plt.subplots(figsize=(10, 5))
     ax.imshow(wordcloud, interpolation='bilinear')
     ax.axis('off')
